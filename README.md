@@ -74,7 +74,7 @@ Run database migrations (Make sure `data/` exists)
 migrate -path internal/db/migrations -database sqlite3://data/db.sqlite up
 ```
 
-Generate OpenAPI specificatipn
+Generate OpenAPI specification
 
 ```shell
 swag f
